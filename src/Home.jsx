@@ -15,13 +15,13 @@ const Home = () => {
         {modalIsOpen() ? 'Close Modal' : 'Open Modal'}
       </button>
 
-      <Show when={modalIsOpen()}>
+      {modalIsOpen() && (
         <div class={styles.Modal}>
           <div>
             <h1>Hello World!</h1>
           </div>
         </div>
-      </Show>
+      )}
     </div>
   )
 }
