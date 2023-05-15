@@ -1,0 +1,44 @@
+.Home,
+.About {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  font-size: 1.2em;
+  justify-content: center;
+  color: #fff;
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.openButton {
+  background-color: #ac0073;
+}
+
+.Modal {
+  background-color: #ac0073;
+  padding: 50px;
+  z-index: 100;
+  width: 25em;
+  height: 15em;
+  border-radius: 1.2em;
+}
+
+.Modal {
+  position: fixed;
+  height: 50vh;
+  width: 50vw;
+  left: 0;
+  right: 0;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeButton {
+  background-color: #002b56;
+}
